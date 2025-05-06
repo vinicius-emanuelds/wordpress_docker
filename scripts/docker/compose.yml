@@ -1,0 +1,19 @@
+services:
+  wordpress:
+    image: wordpress:latest
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: ${DB_HOST}
+      WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${DB_NAME}
+    volumes:
+      - /mnt/wordpress/wp-content:/var/www/html/wp-content
+      - /mnt/wordpress/wp-config:/var/www/html/wp-config
+    network_mode: host
+    
+networks:
+  wordpress:
+    driver: bridge
