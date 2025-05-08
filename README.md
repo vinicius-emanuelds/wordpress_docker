@@ -582,12 +582,12 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
 > 
 > Se precisar criar a chave, clique em *Create new key pair* e siga as instruções.
 > 
-<div align="center">
-   
-![7 LT - KEY PAIR](https://github.com/user-attachments/assets/cd4af543-5566-4147-9c0f-fcb432ca1dac)
-
-
-</div>
+> <div align="center">
+>   
+> ![7 LT - KEY PAIR](https://github.com/user-attachments/assets/cd4af543-5566-4147-9c0f-fcb432ca1dac)
+>
+>
+> </div>
 >
 > Após a criação, a chave será baixada automaticamente para sua máquina. É importante mantê-la disponível no momento da conexão com a instância. Se estiver usando o Windows com WSL, utilize o comando abaixo para copiar para a máquina Linux. Se já estiver utilizando Linux, pule esta etapa.
 > ```cmd
