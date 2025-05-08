@@ -410,7 +410,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/4 RDS - REVIEW.png>)
+![4 RDS - REVIEW](https://github.com/user-attachments/assets/c9f02de7-a619-4340-8301-fc598d6cc4ab)
+
 
 </div>
 
@@ -424,11 +425,13 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/5 TG - SELECIONAR.png>)
+![5 TG - SELECIONAR](https://github.com/user-attachments/assets/c797cd38-d488-47bc-8170-841e229906cb)
+
 
 <br>
 
-![alt text](<docs/images/5 TG - CREATE.png>)
+![5 TG - CREATE](https://github.com/user-attachments/assets/3c2de51e-40a1-45da-bb8c-f36643a9f8ad)
+
 
 </div>
 
@@ -438,15 +441,18 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/5 TG - BASIC.png>)
+![5 TG - BASIC](https://github.com/user-attachments/assets/77b34bfe-af17-46fb-a3b7-d0c3281a5546)
+
 
 <br>
 
-![alt text](<docs/images/5 TG - CONFIGURATIONS.png>)
+![5 TG - CONFIGURATIONS](https://github.com/user-attachments/assets/c9d24905-21c0-4eb7-8ede-a89fbdea0513)
+
 
 <br>
 
-![alt text](<docs/images/5 TG - HEALTH.png>)
+![5 TG - HEALTH](https://github.com/user-attachments/assets/8157c0cd-168e-4568-a681-c80032d27375)
+
    
 </div>
 
@@ -456,7 +462,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/5 TG - CREATE TG.png>)
+![5 TG - CREATE](https://github.com/user-attachments/assets/ff20fa64-e7f6-4fb8-afe5-7e3450e54343)
+
 
 </div>
 
@@ -464,7 +471,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/5 TG - EDIT.png>)
+![5 TG - EDIT](https://github.com/user-attachments/assets/1a54037a-de75-4d16-b08d-e472556106d1)
+
 
 </div>
 
@@ -472,7 +480,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/5 TG - COOKIES.png>)
+![5 TG - COOKIES](https://github.com/user-attachments/assets/9e76b01d-7626-44d2-bff6-5a64306c2c51)
+
 
 </div>
 
@@ -482,11 +491,13 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/6 LB - SELECIONAR.png>)
+![6 LB - SELECIONAR](https://github.com/user-attachments/assets/bef136f4-cd91-4dd0-9de5-c6c1861bfa74)
+
 
 <br>
 
-![alt text](<docs/images/6 LB - CREATE.png>)
+![6 LB - CREATE](https://github.com/user-attachments/assets/69b6ca22-765e-4b8e-9006-e69f88906f5d)
+
 
 </div>
 
@@ -494,7 +505,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/6 LB - TYPE.png>)
+![6 LB - TYPE](https://github.com/user-attachments/assets/b5eadd4e-414b-455c-827d-bab85a571819)
+
 
 </div>
 
@@ -504,19 +516,23 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/6 LB - BASIC.png>)
+![6 LB - BASIC](https://github.com/user-attachments/assets/983b70a0-b6d0-4c78-bfcd-d88e634141cf)
+
 
 <br>
 
-![alt text](<docs/images/6 LB - NETWORK.png>)
+![6 LB - NETWORK](https://github.com/user-attachments/assets/ac353250-5db0-4372-9d2c-088ee2b16630)
+
 
 <br>
 
-![alt text](<docs/images/6 LB - SECURITY.png>)
+![6 LB - SECURITY](https://github.com/user-attachments/assets/d74f620b-01ba-42e9-a4cb-c357f28ab25e)
+
 
 <br>
 
-![alt text](<docs/images/6 LB - CREATE LB.png>)
+![6 LB - CREATE LB](https://github.com/user-attachments/assets/3c4bc0c8-2c57-4af5-b9aa-1cafeb35f533)
+
 
 </div>
 
@@ -532,11 +548,13 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/7 LT - SELECIONAR.png>)
+![7 LT - SELECIONAR](https://github.com/user-attachments/assets/079ff1d5-ddeb-40ea-85e5-a30db7bbd33b)
+
 
 <br>
 
-![alt text](<docs/images/7 LT - CREATE.png>)
+![7 LT - CREATE](https://github.com/user-attachments/assets/9888e9d3-1fa6-4bb3-ac98-a1051ab331a5)
+
 
 </div>
 
@@ -546,11 +564,17 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/7 LT - NAME.png>)
+![7 LT - NAME](https://github.com/user-attachments/assets/90500aa9-b10f-4c54-9691-0e5596f9769a)
 
 <br>
 
-![alt text](<docs/images/7 LT - INSTANCE.png>)
+![7 LT - AMI](https://github.com/user-attachments/assets/54f0f373-9fc9-4845-924a-dceecb08528e)
+
+
+<br>
+
+![7 LT - INSTANCE](https://github.com/user-attachments/assets/31bba68d-929f-420f-9c1c-7b56b69d6cea)
+
 
 </div>
 
@@ -560,7 +584,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
 > 
 <div align="center">
    
-![alt text](<docs/images/7 LT - KEY PAIR.png>)
+![7 LT - KEY PAIR](https://github.com/user-attachments/assets/cd4af543-5566-4147-9c0f-fcb432ca1dac)
+
 
 </div>
 >
@@ -576,11 +601,13 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
 
 <div align="center">
    
-![alt text](<docs/images/7 LT - NETWORK.png>)
+![7 LT - NETWORK](https://github.com/user-attachments/assets/47291720-35bb-451b-b4a9-353753d42f0d)
+
 
 <br>
 
-![alt text](<docs/images/7 LT - STORAGE.png>)
+![7 LT - STORAGE](https://github.com/user-attachments/assets/9b45158d-e39a-45dd-99bd-ea7105410fea)
+
 
 </div>
 
@@ -589,10 +616,18 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
 > Este script irá instalar o WordPress e configurar o Docker na instância. Ele será executado automaticamente quando a instância for criada.
 
 ```bash
-#!/bin/bash
+#!/bin/bash -xe
 set -e
 trap 'echo "Erro na linha $LINENO. Comando: $BASH_COMMAND" >> /var/log/user-data-error.log' ERR
 
+# Força IPv4
+echo 'Acquire::ForceIPv4 "true";' > /etc/apt/apt.conf.d/99force-ipv4
+
+# Aguarda rede estar funcional
+while ! ping -c1 8.8.8.8 &>/dev/null; do
+    echo "Aguardando rede..."
+    sleep 2
+done
 # VARIÁVEIS DE AMBIENTE
 export DB_HOST="[ENDPOINT DO RDS]"
 export DB_USER="[USUÁRIO MASTER CRIADO NO RDS]"
@@ -668,7 +703,8 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
 
 <div align="center">
    
-![alt text](<docs/images/7 LT - USERDATA.png>)
+![7 LT - USERDATA](https://github.com/user-attachments/assets/b25c0094-a0e5-4c68-b2c4-31b0c4b033a1)
+
 
 </div>
 
@@ -682,11 +718,13 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/8 ASG - SELECIONAR.png>)
+![8 ASG - SELECIONAR](https://github.com/user-attachments/assets/5db49a59-f8a5-4e5a-a553-aff2995410b2)
+
 
 <br>
 
-![alt text](<docs/images/8 ASG - CREATE.png>)
+![8 ASG - CREATE](https://github.com/user-attachments/assets/3dd81ac7-f9c0-4961-b24c-4d653a94205a)
+
 
 </div>
 
@@ -696,35 +734,41 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/8 ASG - NAME.png>)
+![8 ASG - NAME](https://github.com/user-attachments/assets/3d238db5-92fb-4bd7-82fb-b25637d8ff8d)
 
 <br>
 
-![alt text](<docs/images/8 ASG - VERSION.png>)
+![8 ASG - VERSION](https://github.com/user-attachments/assets/547cefd6-31f1-4385-947a-4fce35a914a6)
 
 <br>
 
-![alt text](<docs/images/8 ASG - NETWORK.png>)
+![8 ASG - NETWORK](https://github.com/user-attachments/assets/ad87a98c-8ba5-46da-a7a2-15a50f63a031)
+
 
 <br>
 
-![alt text](<docs/images/8 ASG - INTEGRATE.png>)
+![8 ASG - INTEGRATE](https://github.com/user-attachments/assets/f1867db0-a96e-44eb-ba54-c6c2bcca84ec)
+
 
 <br>
 
-![alt text](<docs/images/8 ASG - POLICY.png>)
+![8 ASG - POLICY](https://github.com/user-attachments/assets/4306b752-98d0-4d1a-bb1f-a9235bebedbf)
+
 
 <br>
 
-![alt text](<docs/images/8 ASG - HEALTH.png>)
+![8 ASG - HEALTH](https://github.com/user-attachments/assets/34187cff-7c8d-4cbe-aa2a-24a6a3b9bf08)
+
 
 <br>
 
-![alt text](<docs/images/8 ASG - SCALING.png>)
+![8 ASG - SCALING](https://github.com/user-attachments/assets/40f65e0f-60cd-4d46-a96b-95391632b654)
+
 
 <br>
 
-![alt text](<docs/images/8 ASG - TRACKING.png>)
+![8 ASG - TRACKING](https://github.com/user-attachments/assets/508fc28c-3a65-4b68-a16a-03586e82b6ae)
+
 
 </div>
    
@@ -734,7 +778,8 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/8 ASG - INSTÂNCIAS.png>)
+![8 ASG - INSTÂNCIAS](https://github.com/user-attachments/assets/bde0eaaa-47a0-4f1b-9575-502e2875d43d)
+
 
 </div>
 
@@ -754,11 +799,13 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](docs/images/TESTE.png)
+![9 TESTE - LINGUA](https://github.com/user-attachments/assets/17757904-d12b-48a9-84b5-be881d82ccec)
+
 
 <br>
 
-![alt text](<docs/images/9 TESTE - CONFIGURAÇÃO.png>)
+![9 TESTE - CONFIGURAÇÃO](https://github.com/user-attachments/assets/a1a38e7c-0c15-4ed6-82f6-096150e7a644)
+
 
 </div>
 
@@ -766,7 +813,7 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/9 TESTE - LOGIN.png>)
+![9 TESTE - LOGIN](https://github.com/user-attachments/assets/3c0819bc-72b9-4d85-9912-02f23ac3cbff)
 
 </div>
 
@@ -774,7 +821,8 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/9 TESTE - PÁGINA INICIAL.png>)
+![9 TESTE - PÁGINA INICIAL](https://github.com/user-attachments/assets/c321aa29-4ecc-4006-998c-237544c492db)
+
 
 </div>
 
@@ -784,7 +832,8 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/9 TESTE - UP.png>)
+![9 TESTE - UP](https://github.com/user-attachments/assets/6656e025-0313-4fd3-a720-bf15b5165ecd)
+
 
 </div>
 
@@ -796,7 +845,8 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
 <div align="center">
    
-![alt text](<docs/images/9 TESTE - VERIFICAR.png>)
+![9 TESTE - VERIFICAR](https://github.com/user-attachments/assets/83ec9696-86fe-494e-8c5c-e7e3b624bce0)
+
 
 </div>
 
