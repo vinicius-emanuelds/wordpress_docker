@@ -1,7 +1,15 @@
-#!/bin/bash
+#!/bin/bash -xe
 set -e
 trap 'echo "Erro na linha $LINENO. Comando: $BASH_COMMAND" >> /var/log/user-data-error.log' ERR
 
+# Força IPv4
+echo 'Acquire::ForceIPv4 "true";' > /etc/apt/apt.conf.d/99force-ipv4
+
+# Aguarda rede estar funcional
+while ! ping -c1 8.8.8.8 &>/dev/null; do
+    echo "Aguardando rede..."
+    sleep 2
+done
 # VARIÁVEIS DE AMBIENTE
 export DB_HOST="[ENDPOINT DO RDS]"
 export DB_USER="[USUÁRIO MASTER CRIADO NO RDS]"
