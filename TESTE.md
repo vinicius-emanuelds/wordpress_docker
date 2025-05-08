@@ -10,7 +10,7 @@
 |-------|-----------|
 | [🎯 Objetivos](#-objetivos) | Metas do projeto |  
 | [📋 Requisitos Técnicos](#-requisitos-técnicos) | Especificações técnicas do projeto |
-| [🏗️ Arquitetura Proposta](#-arquitetura-proposta) | Topologia e componentes da infraestrutura |
+| [🏗️ Arquitetura Proposta](#️-arquitetura-proposta) | Topologia e componentes da infraestrutura |
 | [🛠️ Recursos Necessários](#-recursos-necessários) | Pré-requisitos e configurações |  
 | [🌐 Configuração AWS](#-configurando-o-ambiente-aws) | VPC, Security Groups e EC2 |  
 | [📦 Serviços de Armazenamento](#-criar-o-efs) | EFS e RDS |
@@ -59,8 +59,8 @@ Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 
 ---
 
-## 🏗️ ARQUITETURA PROPOSTA
-![alt text](<docs/images/0 TOPOLOGIA.png>)
+## ARQUITETURA PROPOSTA
+![alt text](https://github.com/vinicius-emanuelds/wordpress_docker/blob/f0584ebe4566e7493a7fbabfe26a0898f0869d90/docs/images/0%20TOPOLOGIA.png)
 
 ### Componentes
 - **Compute**: AWS EC2 com Docker
@@ -69,7 +69,7 @@ Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 - **Network**: VPC, Subnets e Security Groups
 - **Load Balancing**: AWS Application Load Balancer
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
@@ -110,6 +110,7 @@ Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com
 3. **Configure a VPC** - Aplique as seguintes configurações e clique em *Create VPC*.
    
    ![alt text](<docs/images/1 VPC - SETTINGS.png>)
+
    ![alt text](<docs/images/1 VPC - CREATE VPC.png>)
 
 4. **Verifique a criação** - O fluxo deve ser similar a este:
