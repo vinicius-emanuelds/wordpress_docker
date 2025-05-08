@@ -82,7 +82,7 @@ Esta abordagem é robusta e indicada para aplicações que precisam de alta disp
 
 <div align="center">
     
-![alt text](<docs/images/0 TOPOLOGIA.png>)
+![0 TOPOLOGIA](https://github.com/user-attachments/assets/a2c1a614-5df4-459b-8670-e6e8c55732d0)
 
 </div>
 
@@ -127,7 +127,8 @@ Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com
    
 <div align="center">
    
-![alt text](<docs/images/1 VPC - DASHB.png>)
+![1 VPC - DASHB](https://github.com/user-attachments/assets/5f711d5b-3050-4262-8011-a679e76fc148)
+
 
 </div>
 
@@ -135,7 +136,8 @@ Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com
    
 <div align="center">
    
-![alt text](<docs/images/1 VPC - CREATE.png>)
+![1 VPC - CREATE](https://github.com/user-attachments/assets/10b6b3da-6148-4148-b0a5-4921ac59c522)
+
 
 </div>
 
@@ -143,11 +145,13 @@ Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com
    
 <div align="center">
    
-![alt text](<docs/images/1 VPC - SETTINGS.png>)
+![1 VPC - SETTINGS](https://github.com/user-attachments/assets/40b48d17-9f34-48b6-b7da-06098be59f32)
+
 
 <br>
 
-![alt text](<docs/images/1 VPC - CREATE VPC.png>)
+![1 VPC - CREATE](https://github.com/user-attachments/assets/0de83dae-239a-45c5-8414-15165586d9da)
+
 
 </div>
 
@@ -155,7 +159,8 @@ Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com
    
 <div align="center">
    
-![alt text](<docs/images/1 VPC - RESOURCE MAP.png>)
+![1 VPC - RESOURCE MAP](https://github.com/user-attachments/assets/7bc93873-eea6-4746-a4ef-4073b6c51061)
+
 
 </div>
 
@@ -170,7 +175,8 @@ Para este projeto, nós teremos 04 Security Groups, um para cada serviço.
    
 <div align="center">
    
-![alt text](<docs/images/2 SG - SELECIONAR.png>)
+![2 SG - SELECIONAR](https://github.com/user-attachments/assets/7565521e-b16e-45ad-af2b-7ba301d6c540)
+
 
 </div>
 
@@ -178,7 +184,8 @@ Para este projeto, nós teremos 04 Security Groups, um para cada serviço.
    
 <div align="center">
    
-![alt text](<docs/images/2 SG - CREATE.png>)
+![2 SG - CREATE](https://github.com/user-attachments/assets/c864cfe8-784d-4770-b0cc-e7529cfddfc9)
+
 
 </div>
 
@@ -186,7 +193,8 @@ Para este projeto, nós teremos 04 Security Groups, um para cada serviço.
    
 <div align="center">
    
-![alt text](<docs/images/2 SG - BASIC DETAILS.png>)
+![2 SG - BASIC DETAILS](https://github.com/user-attachments/assets/f3ed0fd4-ef74-499d-96bf-b486b3042c42)
+
 
 </div>
 
@@ -275,7 +283,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
 
 <div align="center">
    
-![alt text](<docs/images/2 SG - REVIEW.png>)
+![2 SG - REVIEW](https://github.com/user-attachments/assets/5da9b9c1-8959-4eae-bb90-450cee652b9b)
+
 
 </div>
 
@@ -289,11 +298,12 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/3 EFS - SELECIONAR.png>)
+![3 EFS - SELECIONAR](https://github.com/user-attachments/assets/2df74e2d-7341-4e85-83ef-aa4c567059dd)
 
 <br>
 
-![alt text](<docs/images/3 EFS - CREATE.png>)
+![3 EFS - CREATE](https://github.com/user-attachments/assets/6013d2e7-5db9-4c11-87df-1ce027772d71)
+
 
 </div>
 
@@ -301,7 +311,8 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/3 EFS - CUSTOMIZE.png>)
+![3 EFS - CUSTOMIZE](https://github.com/user-attachments/assets/4dbcc6db-c5cf-4434-bad3-576da1be8dc2)
+
 
 </div>
 
@@ -311,19 +322,22 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/3 EFS - GENERAL.png>)
+![3 EFS - GENERAL](https://github.com/user-attachments/assets/b002119b-7f26-4799-b8bf-e712962f128c)
+
 
 <br>
 
-![alt text](<docs/images/3 EFS - PERFORMANCE.png>)
+![3 EFS - PERFORMANCE](https://github.com/user-attachments/assets/5de820d1-7ef6-41ae-a715-e0cf0b5ee6f8)
 
 <br>
 
-![alt text](<docs/images/3 EFS - NETWORK.png>)
+![3 EFS - NETWORK](https://github.com/user-attachments/assets/efaae4cc-246a-45ff-805b-1c136af4568d)
+
 
 <br>
 
-![alt text](<docs/images/3 EFS - POLICY.png>)
+![3 EFS - POLICY](https://github.com/user-attachments/assets/27188b86-e6ad-47bf-a685-e54c8e4d2b3b)
+
 
 </div>
 
@@ -335,11 +349,13 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/4 RDS - SELECIONAR.png>)
+![4 RDS - SELECIONAR](https://github.com/user-attachments/assets/5400ad5a-a235-49cb-ab17-66ec9f875bb1)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - CREATE.png>)
+![4 RDS - CREATE](https://github.com/user-attachments/assets/9b6aa5d7-c927-4e6c-9261-fedc20010b9c)
+
 
 </div>
 
@@ -349,35 +365,42 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
 <div align="center">
    
-![alt text](<docs/images/4 RDS - MYSQL.png>)
+![4 RDS - MYSQL](https://github.com/user-attachments/assets/385d917e-9b4e-4864-ac73-f0d5866fa310)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - FREE TIER.png>)
+![4 RDS - FREE TIER](https://github.com/user-attachments/assets/9b450a6a-c166-46ea-a136-b954f8b08537)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - AVAILABILITY.png>)
+![4 RDS - AVAILABILITY](https://github.com/user-attachments/assets/2e42186e-a9c6-4123-bd87-0f4a5dfe06ab)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - CREDENTIALS.png>)
+![4 RDS - CREDENTIALS](https://github.com/user-attachments/assets/8a00ed18-6dae-40eb-a4a7-8a37f736acd3)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - INSTANCE.png>)
+![4 RDS - INSTANCE](https://github.com/user-attachments/assets/e8b01c35-d2d2-468a-8594-42ee0c6a8fb2)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - CONECTIVITY.png>)
+![4 RDS - CONECTIVITY](https://github.com/user-attachments/assets/b06e1ad5-099e-4f96-a6a9-632d237a87a6)
 
 <br>
 
-![alt text](<docs/images/4 RDS - VPC.png>)
+![4 RDS - VPC](https://github.com/user-attachments/assets/ab0fdf02-62d4-42b6-9f94-69ce11ffa7d0)
+
 
 <br>
 
-![alt text](<docs/images/4 RDS - ADDITIONAL.png>)
+![4 RDS - ADDITIONAL](https://github.com/user-attachments/assets/0f12c131-5296-4c9b-bc13-a7264779f248)
+
 
 </div>
 
