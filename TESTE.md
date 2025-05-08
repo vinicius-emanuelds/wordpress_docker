@@ -1,28 +1,30 @@
-# 🐳 WordPress com Docker + AWS Infrastructure
+Vou ajustar removendo os ícones do índice e verificando o formato das imagens. Aqui está a versão atualizada:
+
+# WordPress com Docker + AWS Infrastructure
 
 <div align="center">
 <h3>Implantação de alta disponibilidade utilizando containers e serviços gerenciados AWS</h3>
 <p>Tempo estimado de configuração: 45-60 minutos</p>
 </div>
 
-## 📑 ÍNDICE
+## ÍNDICE
 | Seção | Descrição |  
 |-------|-----------|
-| [🎯 Objetivos](#-objetivos) | Metas do projeto |  
-| [📋 Requisitos Técnicos](#-requisitos-técnicos) | Especificações técnicas do projeto |
-| [🏗️ Arquitetura Proposta](#️-arquitetura-proposta) | Topologia e componentes da infraestrutura |
-| [🛠️ Recursos Necessários](#-recursos-necessários) | Pré-requisitos e configurações |  
-| [🌐 Configuração AWS](#-configurando-o-ambiente-aws) | VPC, Security Groups e EC2 |  
-| [📦 Serviços de Armazenamento](#-criar-o-efs) | EFS e RDS |
-| [⚖️ Balanceamento de Carga](#-criar-o-target-group-do-load-balancer) | Target Groups e Load Balancer |
-| [🚀 Instalação do WordPress](#-criando-a-aplicação-do-wordpress) | Template EC2 e Auto Scaling |
-| [✅ Testando a Aplicação](#-testando-a-aplicação) | Verificação e troubleshooting |
-| [🤝 Contribuição](#-contribuição) | Como contribuir com o projeto |
-| [📜 Licença](#-licença) | Licenciamento do projeto |
+| [Objetivos](#objetivos) | Metas do projeto |  
+| [Requisitos Técnicos](#requisitos-técnicos) | Especificações técnicas do projeto |
+| [Arquitetura Proposta](#arquitetura-proposta) | Topologia e componentes da infraestrutura |
+| [Recursos Necessários](#recursos-necessários) | Pré-requisitos e configurações |  
+| [Configuração AWS](#configurando-o-ambiente-aws) | VPC, Security Groups e EC2 |  
+| [Serviços de Armazenamento](#criar-o-efs) | EFS e RDS |
+| [Balanceamento de Carga](#criar-o-target-group-do-load-balancer) | Target Groups e Load Balancer |
+| [Instalação do WordPress](#criando-a-aplicação-do-wordpress) | Template EC2 e Auto Scaling |
+| [Testando a Aplicação](#testando-a-aplicação) | Verificação e troubleshooting |
+| [Contribuição](#contribuição) | Como contribuir com o projeto |
+| [Licença](#licença) | Licenciamento do projeto |
 
 ---
 
-## 🎯 OBJETIVOS
+## OBJETIVOS
 Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 - Containers Docker
 - Banco de dados gerenciado (RDS MySQL)
@@ -30,11 +32,11 @@ Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 - Balanceamento de carga (Load Balancer)
 - Monitoramento e notificações via CloudWatch e SNS 
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## 📋 REQUISITOS TÉCNICOS
+## REQUISITOS TÉCNICOS
 
 1. **Instalação e configuração do Docker** em instâncias EC2.
 2. **Deploy do WordPress** em containers:
@@ -55,12 +57,12 @@ Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 8. **Documentação clara e detalhada**:
    - Explicação dos passos, decisões e arquitetura.
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
 ## ARQUITETURA PROPOSTA
-![alt text](https://github.com/vinicius-emanuelds/wordpress_docker/blob/f0584ebe4566e7493a7fbabfe26a0898f0869d90/docs/images/0%20TOPOLOGIA.png)
+![alt text](<docs/images/0 TOPOLOGIA.png>)
 
 ### Componentes
 - **Compute**: AWS EC2 com Docker
@@ -73,7 +75,7 @@ Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 
 ---
 
-## 🛠️ RECURSOS NECESSÁRIOS
+## RECURSOS NECESSÁRIOS
 
 ### ✔️ Conta AWS ativa ([Criar conta gratuita](https://aws.amazon.com/pt/free/))
 
@@ -90,11 +92,11 @@ Implantar uma aplicação WordPress altamente disponível na AWS, utilizando:
 - Redes
 - Linux
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## 🌐 CONFIGURANDO O AMBIENTE AWS
+## CONFIGURANDO O AMBIENTE AWS
 
 ### Criar a VPC
 Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com um internet gateway conectado à uma das sub-redes públicas.
@@ -110,7 +112,6 @@ Agora vamos criar uma VPC na AWS com 4 sub-redes (2 privadas e 2 públicas), com
 3. **Configure a VPC** - Aplique as seguintes configurações e clique em *Create VPC*.
    
    ![alt text](<docs/images/1 VPC - SETTINGS.png>)
-
    ![alt text](<docs/images/1 VPC - CREATE VPC.png>)
 
 4. **Verifique a criação** - O fluxo deve ser similar a este:
@@ -194,11 +195,11 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
 
    ![alt text](<docs/images/2 SG - REVIEW.png>)
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## 📦 CRIAR O EFS
+## CRIAR O EFS
 
 1. **Acesse o serviço EFS** - Na barra de pesquisa, digite EFS e clique na primeira opção. Em seguida, clique em *Create file system*.
    
@@ -246,11 +247,11 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    
    ![alt text](<docs/images/4 RDS - REVIEW.png>)
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## ⚖️ CRIAR O TARGET GROUP DO LOAD BALANCER
+## CRIAR O TARGET GROUP DO LOAD BALANCER
 
 1. **Acesse Target Groups** - Na barra de pesquisa, digite *Target Groups* e clique em *"Target Groups - EC2 Feature"*. Em seguida, clique em *Create target group*.
    
@@ -299,11 +300,11 @@ Objetivo: Proteger o EFS e permitir tráfego somente vindo da instância EC2.
    ![alt text](<docs/images/6 LB - SECURITY.png>)
    ![alt text](<docs/images/6 LB - CREATE LB.png>)
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## 🚀 CRIANDO A APLICAÇÃO DO WORDPRESS
+## CRIANDO A APLICAÇÃO DO WORDPRESS
 
 ### CRIAR UM TEMPLATE DA EC2
 
@@ -448,11 +449,11 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
    
    ![alt text](<docs/images/8 ASG - INSTÂNCIAS.png>)
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## ✅ TESTANDO A APLICAÇÃO
+## TESTANDO A APLICAÇÃO
 
 1. **Acesse o Load Balancer** - Após alguns minutos, seu Load Balancer deve estar ativo. Busque na barra de pesquisa por Load Balancer e clique na opção.
 
@@ -498,19 +499,19 @@ echo "Instalação concluída em $(date)" >> /var/log/user-data-complete.log
 | Load Balancer marca instâncias como unhealthy | Aplicação não responde na porta 80 | Verificar status do Docker e firewall |
 | Arquivos não persistem | EFS não montado corretamente | Verificar status da montagem e permissões |
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## 📜 Licença
+## Licença
 
 Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
 
 ---
 
-## 🤝 Contribuição
+## Contribuição
 
 1. Faça um fork do projeto
 2. Crie sua branch (`git checkout -b feature/nova-feature`)
@@ -522,4 +523,4 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE](
 
 Desenvolvido por [Seu Nome] - [Seu Email/Contato]
 
-[⬆️ Voltar ao índice](#-índice)
+[⬆️ Voltar ao índice](#índice)
