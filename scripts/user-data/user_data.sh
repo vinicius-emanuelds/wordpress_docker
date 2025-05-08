@@ -4,7 +4,7 @@ trap 'echo "Erro na linha $LINENO. Comando: $BASH_COMMAND" >> /var/log/user-data
 
 # VARIÁVEIS DE AMBIENTE
 export DB_HOST="[ENDPOINT DO RDS]"
-export DB_USER="admin"
+export DB_USER="[USUÁRIO MASTER CRIADO NO RDS]"
 export DB_PASSWORD="[SENHA CRIADA NO RDS]"
 export DB_NAME="[NOME ESCOLHIDO PARA O PRIMEIRO DATABASE]"
 export DB_ROOT_PASSWORD="[ESCOLHA UMA SENHA ROOT]"
@@ -50,7 +50,7 @@ services:
     image: wordpress:latest
     restart: always
     ports:
-      - 8080:80
+      - 80:80
     environment:
       WORDPRESS_DB_HOST: ${DB_HOST}
       WORDPRESS_DB_USER: ${DB_USER}
