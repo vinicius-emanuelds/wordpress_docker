@@ -1,9 +1,4 @@
-# WordPress com Docker + AWS Infrastructure
-
-<div align="center">
-<h3>Implantação de alta disponibilidade utilizando containers e serviços gerenciados AWS</h3>
-<p>Tempo estimado de configuração: 45-60 minutos</p>
-</div>
+# WordPress com Docker + Infraestrutura AWS
 
 ## ÍNDICE
 | Seção | Descrição |  
